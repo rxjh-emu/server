@@ -1,15 +1,14 @@
 # rxjh-emu
-rxjh-emu is private prohect Yulgang Online ( Scion of Fate ) MMORPG server emulator, written in Go language.
-
+rxjh-emu is open source project Yulgang Online ( Scion of Fate ) MMORPG server emulator, written in Go language.
 
 ### Features
 - Cross-platform
-- steam client support
+- Currently support THAI client.
 - MariaDB database for storing information
-- Implemented server features
 
 ### Installation
 Please refer to the wiki installation page.
+
 ### Contribution
 Pull requests are accepted. For bug reports and feature suggestions please use issues page.
 
