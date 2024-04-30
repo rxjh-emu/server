@@ -1,0 +1,14 @@
+package packet
+
+// Packet Type ID's
+const (
+	// CLIENT MESSAGE
+	CM_LOGIN          = 0x8000
+	CM_SERVERLIST     = 0x8016
+	CM_SELECT_CHANNEL = 0x800C
+
+	// SERVER MESSAGE
+	SM_LOGIN          = 0x8001
+	SM_SERVERLIST     = 0x8017
+	SM_SELECT_CHANNEL = 0x8064
+)

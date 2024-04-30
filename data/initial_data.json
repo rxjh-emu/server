@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000001,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    }
+  ]
+}
