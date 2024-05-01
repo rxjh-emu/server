@@ -58,3 +58,9 @@ func ParseIPFromInt32(ipInteger uint32) string {
 	binary.LittleEndian.PutUint32(ip, ipInteger)
 	return ip.String()
 }
+
+func ConvertUint16ToBytes(i uint16) []byte {
+	var buf = make([]byte, 2)
+	binary.LittleEndian.PutUint16(buf, i)
+	return buf
+}

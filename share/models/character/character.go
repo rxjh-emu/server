@@ -32,36 +32,45 @@ const (
 
 // Character struct
 type Character struct {
-	Id        int
-	Name      string
-	Slot      int
-	Class     int
-	Level     int
-	Exp       int
-	Ki        int
-	Spr       int // Basic Status
-	Str       int // Basic Status
-	Stm       int // Basic Status
-	Dex       int // Basic Status // Agility
-	Fame      int // Basic Status // Honor
-	Morals    int // Basic Status // Karma
-	Attack    int // Combat Status
-	Defence   int // Combat Status
-	Accuracy  int // Combat Status
-	Dodge     int // Combat Status
+	Id        int    `db:"id"`
+	Name      string `db:"name"`
+	Slot      int    `db:"slot"`
+	Class     int    `db:"class"`
+	Level     int    `db:"level"`
+	Exp       int    `db:"exp"`
+	Ki        int    `db:"ki"`
+	Spr       int    `db:"spr"`    // Basic Status
+	Str       int    `db:"str"`    // Basic Status
+	Stm       int    `db:"stm"`    // Basic Status
+	Dex       int    `db:"dex"`    // Basic Status // Agility
+	Fame      int    `db:"fame"`   // Basic Status // Honor
+	Morals    int    `db:"morals"` // Basic Status // Karma
+	Attack    int    // Combat Status
+	Defence   int    // Combat Status
+	Accuracy  int    // Combat Status
+	Dodge     int    // Combat Status
 	CurrentHp int
 	CurrentMp int
 	CurrentRp int
-	MaxHp     int
-	MaxMp     int
-	MaxRp     int
-	Gender    int
-	Hair      int
-	HairColor int
-	Face      int
-	Voice     int
+	MaxHp     int `db:"hp"`
+	MaxMp     int `db:"mp"`
+	MaxRp     int `db:"rp"`
+	Gender    int `db:"gender"`
+	Hair      int `db:"hair"`
+	HairColor int `db:"hair_color"`
+	Face      int `db:"face"`
+	Voice     int `db:"voice"`
 
 	Position world.Position
+}
+
+type ListReq struct {
+	Account int
+	Server  byte
+}
+
+type ListRes struct {
+	List []Character
 }
 
 // Check name request struct

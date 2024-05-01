@@ -8,6 +8,7 @@ import (
 
 	"github.com/rxjh-emu/server/share/event"
 	"github.com/rxjh-emu/server/share/log"
+	"github.com/rxjh-emu/server/share/models/character"
 	"github.com/rxjh-emu/server/share/util"
 )
 
@@ -23,12 +24,12 @@ type Session struct {
 	AuthKey uint32
 	DataEx  any
 	Data    struct {
-		AccountId    int32  // database account id
-		Username     string // username
-		Verified     bool   // version verification
-		LoggedIn     bool   // auth verification
-		CharVerified bool   // character delete password verification
-		// CharacterList []character.Character
+		AccountId     int32  // database account id
+		Username      string // username
+		Verified      bool   // version verification
+		LoggedIn      bool   // auth verification
+		CharVerified  bool   // character delete password verification
+		CharacterList []character.Character
 	}
 
 	PeriodicJobs map[string]*PeriodicTask

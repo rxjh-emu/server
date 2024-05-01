@@ -25,7 +25,7 @@ func RegisterPackets() {
 	//g_RPCHandler.Register(rpc.PasswdCheck, PasswdCheck)
 	//g_RPCHandler.Register(rpc.ForceDisconnect, ForceDisconnect)
 	//
-	//g_RPCHandler.Register(rpc.LoadCharacters, LoadCharacters)
+	g_RPCHandler.Register(rpc.LoadCharacters, LoadCharacters)
 	g_RPCHandler.Register(rpc.CheckCharacterName, CheckCharacterName)
 	g_RPCHandler.Register(rpc.CreateCharacter, CreateCharacter)
 	//g_RPCHandler.Register(rpc.DeleteCharacter, DeleteCharacter)

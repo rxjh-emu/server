@@ -18,7 +18,7 @@ const (
 
 // Character related RPC's
 const (
-	// LoadCharacters     = "LoadCharacters"
+	LoadCharacters     = "LoadCharacters"
 	CheckCharacterName = "CheckCharacterName"
 	CreateCharacter    = "CreateCharacter"
 	// DeleteCharacter    = "DeleteCharacter"
