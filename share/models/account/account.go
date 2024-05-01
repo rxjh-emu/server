@@ -34,14 +34,14 @@ type VerifyRes struct {
 	Verified bool
 }
 
-type AuthCheckReq struct {
-	Id       int32
-	Password string
-}
+// type AuthCheckReq struct {
+// 	Id       int32
+// 	Password string
+// }
 
-type AuthCheckRes struct {
-	Result bool
-}
+// type AuthCheckRes struct {
+// 	Result bool
+// }
 
 type CharCount struct {
 	Server byte

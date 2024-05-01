@@ -19,11 +19,13 @@ func RegisterPackets() {
 	pk.Register(CM_ENTER_LOBBY, "CM_ENTER_LOBBY", EnterLobby)
 	pk.Register(CM_CHARACTER_LIST, "CM_CHARACTER_LIST", CharacterList)
 	pk.Register(CM_CHECK_NAME, "CM_CHECK_NAME", CheckName)
+	pk.Register(CM_CHARACTER_CREATE, "CM_CHARACTER_CREATE", CreateCharacter)
 
 	pk.Register(SM_AUTHORIZE, "SM_AUTHORIZE", nil)
 	pk.Register(SM_ENTER_LOBBY, "SM_ENTER_LOBBY", nil)
 	pk.Register(SM_CHARACTER_LIST, "SM_CHARACTER_LIST", nil)
 	pk.Register(SM_CHECK_NAME, "SM_CHECK_NAME", nil)
+	pk.Register(SM_CHARACTER_CREATE, "SM_CHARACTER_CREATE", nil)
 }
 
 func RegisterFunc() {

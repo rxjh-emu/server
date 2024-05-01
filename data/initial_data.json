@@ -2,6 +2,15 @@
   "jobs": [
     {
       "id": 1,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
       "location": {
         "map": 1,
         "x": 100,
@@ -21,6 +30,323 @@
     },
     {
       "id": 2,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
+      "location": {
+        "map": 1,
+        "x": 100,
+        "y": 50,
+        "z": 15
+      },
+      "inventory": [
+        {
+          "item": 1000002,
+          "quantity": 1
+        },
+        {
+          "item": 1000005,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "stats": {
+        "hp": 100,
+        "mp": 100,
+        "rp": 100,
+        "spr": 100,
+        "str": 100,
+        "stm": 100,
+        "dex": 100
+      },
       "location": {
         "map": 1,
         "x": 100,

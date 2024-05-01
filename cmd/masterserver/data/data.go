@@ -2,9 +2,11 @@ package data
 
 import (
 	"encoding/json"
+	"io/ioutil"
+
 	"github.com/rxjh-emu/server/share/directory"
 	"github.com/rxjh-emu/server/share/log"
-	"io/ioutil"
+	"github.com/rxjh-emu/server/share/models"
 )
 
 type Loader struct {
@@ -12,19 +14,7 @@ type Loader struct {
 }
 
 type InitialData struct {
-	Jobs []struct {
-		ID       int `json:"id"`
-		location struct {
-			Map int     `json:"map"`
-			X   float64 `json:"x"`
-			Y   float64 `json:"y"`
-			Z   float64 `json:"z"`
-		}
-		Inventory []struct {
-			Item     int `json:"item"`
-			Quantity int `json:"quantity"`
-		}
-	}
+	Jobs []models.InitialJob
 }
 
 // Initializes DataLoader
